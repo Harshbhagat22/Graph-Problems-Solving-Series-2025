@@ -35,6 +35,6 @@
         }
     }
 
-## SAMPLE OUTPUT : 
+## GRAPH OUTPUT : 
 <img width="426" height="262" alt="image" src="https://github.com/user-attachments/assets/71dfd93f-c3ec-41ce-b433-2f07c34b26ed" />
 
