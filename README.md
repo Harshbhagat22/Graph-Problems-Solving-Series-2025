@@ -6,7 +6,7 @@
 ## Graph Class :
 
 
-class Graph {
+  class Graph {
 
     HashMap<String,List<String>>graph;
         public Graph(){
@@ -33,4 +33,4 @@ class Graph {
                 System.out.println();
             }
         }
-}
+    }
