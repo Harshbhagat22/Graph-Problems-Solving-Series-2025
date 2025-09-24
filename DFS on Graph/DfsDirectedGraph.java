@@ -70,11 +70,11 @@ class Graph {
                                         for(int i = temp.size() - 1; i>=0; i--){
                                             if(!visited.contains(temp.get(i))){
                                                     s.push(temp.get(i));
-                                            }
-                                                }
-                                   }
-                            }
-                            
+                                        }
+                                }
+                         }
                     }
+                            
+                }
         }
 }
