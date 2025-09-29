@@ -19,17 +19,19 @@ public class FindNeighbourOfVertex {
         
         // Display Graph..
         g.printGraph();
-        DisplayNeighbours("B",g);
+        DisplayNeighbours("A",g);
     }
     
     public static void DisplayNeighbours(String v, Graph g){
         if(g.graph.containsKey(v)){
             List<String> neighbour = g.graph.get(v);
             if(!neighbour.isEmpty()){
-                System.out.println("\nThe Neighbour of Vertex" + v +" = " + neighbour.toString());
+                System.out.println("\nThe Neighbour of Vertex " + v +" = " + neighbour.toString());
             }
-        } else {
-            System.out.println("No neighbour to Node");
+         else {
+            System.out.println("\nNo neighbour to Node of " + v);
+        }
+        
         }
     }
 }
